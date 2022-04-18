@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <center>
+                <h1>BMI Calculator</h1>
+                <table class="bmi-table">
+                    <tbody>
+                    </center>
+                        <tr class="f">
+                            <th><strong>BMI kg/m<sup>2</sup></strong></th>
+                            <th><strong>อยู่ในเกณท์</strong></th>
+                            <th><strong>ภาวะเสี่ยงต่อโรค</strong></th>
+                        </tr>
+                        <tr>
+                            <td><span>น้อยกว่า 18.50</span></td>
+                            <td><span>น้ำหนักน้อย / ผอม</span></td>
+                            <td><span>มากกว่าคนปกติ</span></td>
+                        </tr>
+                        <tr>
+                            <td><span>ระหว่าง 18.50 - 22.90</span></td>
+                            <td><span>ปกติ (สุขภาพดี)</span></td>						
+                            <td><span>เท่าคนปกติ</span></td>
+                        </tr>
+                        <tr>
+                            <td><span>ระหว่าง 23 - 24.90</span></td>
+                            <td><span>ท้วม / โรคอ้วนระดับ 1</span></td>	
+                            <td><span>อันตรายระดับ 1</span></td>					
+                        </tr>
+                        <tr>
+                            <td><span>ระหว่าง 25 - 29.90</span></td>
+                            <td><span>อ้วน / โรคอ้วนระดับ 2</span></td>
+                            <td><span>อันตรายระดับ 2</span></td>
+                        </tr>
+                        <tr>
+                            <td><span>มากกว่า 30</span></td>
+                            <td><span>อ้วนมาก / โรคอ้วนระดับ 3</span></td>	
+                            <td><span>อันตรายระดับ 3</span></td>					
+                        </tr>
+                    </tbody>
+                </table>
+            <div class="box">
+                <p>ส่วนสูง (cm)</p>
+                <input type="text" id="height">
+                <p>น้ำหนัก (kg)</p>
+                <input type="text" id="weight">
+                <button id="btn">คำนวณ</button>
+            </div>
+            <center>
+                <div id="result"></div>
+            </center>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
